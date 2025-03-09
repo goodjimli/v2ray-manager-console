@@ -67,6 +67,10 @@
         <el-input v-model="postForm.alterId" placeholder="v2ray版本>(4.35.0)为0" />
       </el-form-item>
 
+      <el-form-item label="orderBy" prop="orderBy">
+        <el-input v-model="postForm.orderBy" placeholder="排序 999" />
+      </el-form-item>
+
       <el-form-item label="服务器状态" prop="status">
         <el-select v-model="postForm.status">
           <el-option
@@ -114,7 +118,8 @@ const defaultForm = {
   // 单账号最大连接数
   maxConnection: 100,
   // ws路径
-  wsPath: '/ws/%s/'
+  wsPath: '/ws/%s/',
+  orderBy: 999
 }
 const defaultRules = {
   serverName: { required: true, trigger: 'blur' },

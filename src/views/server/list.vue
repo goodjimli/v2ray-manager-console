@@ -49,13 +49,16 @@
           <span>{{ scope.row.desc }}</span>
         </template>
       </el-table-column>
-
+      <el-table-column width="80px" align="center" label="排序">
+        <template slot-scope="{row}">
+          <span>{{ row.orderBy }}</span>
+        </template>
+      </el-table-column>
       <el-table-column width="80px" align="center" label="服务器状态">
         <template slot-scope="{row}">
           <el-tag :type="row.status | statusFilter">
             {{ row.status |statusFilter2 }}
           </el-tag>
-
         </template>
       </el-table-column>
 
