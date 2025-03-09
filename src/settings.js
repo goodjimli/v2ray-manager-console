@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Connect The World',
+  title: '供应链管理系统',
 
   /**
    * @type {boolean} true | false

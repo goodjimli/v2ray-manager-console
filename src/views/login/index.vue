@@ -1,6 +1,6 @@
 <template>
   <div class="login-container">
-     <github-corner class="github-corner" />
+     <!-- <github-corner class="github-corner" /> -->
     <div hidden>{{ autoLogin }}</div>
     <div v-if="loginVisible" id="login">
       <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
