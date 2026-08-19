@@ -38,9 +38,9 @@
         </template>
       </el-table-column>
 
-      <el-table-column width="80px" align="center" label="alterId">
+      <el-table-column width="80px" align="center" label="倍数">
         <template slot-scope="{row}">
-          <span>{{ row.alterId }}</span>
+          <span>{{ row.multiple }}</span>
         </template>
       </el-table-column>
 
