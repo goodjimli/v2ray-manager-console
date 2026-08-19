@@ -1,8 +1,10 @@
 [主项目/master project ](https://github.com/master-coder-ll/v2ray-web-manager)
 
 ## 环境
-node v16.9.1 
-[node_modules](https://gitee.com/wubie/vue2-element-admin-simplify/raw/master/%5Bbackup%5Dnode_modules.zip)
+
+1.  NVM 管理node环境
+2. node v16.9.1 
+3. node_modules在releases里面
 
 ## Build
 
